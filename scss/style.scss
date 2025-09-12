@@ -1,7 +1,12 @@
-@import "../bootstrap/scss/bootstrap.scss";
+// bootstrap
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
 
 // custom
 @import "./partials/resets";
 @import "./partials/variables";
 @import "./partials/sizes";
 @import "./partials/colors";
+
+// bootstrap
+@import "../bootstrap/scss/bootstrap.scss";

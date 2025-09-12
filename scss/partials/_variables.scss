@@ -1,1 +1,7 @@
-$MyRed: #E50914;
+$MyGray: rgb(164, 164, 164);
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "MyGray": $MyGray,
+  )
+);
