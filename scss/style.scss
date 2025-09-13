@@ -8,5 +8,11 @@
 @import "./partials/sizes";
 @import "./partials/colors";
 
+#MyPencil {
+    bottom: 0;
+    left: 0;
+    transform: translate(10%, -20%);
+}
+
 // bootstrap
 @import "../bootstrap/scss/bootstrap.scss";

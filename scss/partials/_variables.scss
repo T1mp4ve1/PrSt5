@@ -5,3 +5,11 @@ $theme-colors: map-merge(
     "MyGray": $MyGray,
   )
 );
+
+$MyDark: #3c3c3c;
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "MyDark": $MyDark,
+  )
+);
